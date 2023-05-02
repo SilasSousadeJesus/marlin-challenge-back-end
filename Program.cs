@@ -31,7 +31,7 @@ namespace marlin_challenge_back_end
           
             app.UseCors(options =>
             {
-                options.WithOrigins("https://marlin-challenge-front-end.vercel.app").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                options.WithOrigins("https://marlin-challenge-front-end.vercel.app", "https://localhost:7075").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
             });
 
             // Configure the HTTP request pipeline.

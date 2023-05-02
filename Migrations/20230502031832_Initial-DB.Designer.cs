@@ -12,7 +12,7 @@ using marlin_challenge_back_end.Data;
 namespace marlin_challenge_back_end.Migrations
 {
     [DbContext(typeof(MarlinDbContext))]
-    [Migration("20230501164607_Initial-DB")]
+    [Migration("20230502031832_Initial-DB")]
     partial class InitialDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
