@@ -34,7 +34,10 @@
   <h3>Para usar este projeto siga os seguintes passos: </h3>
   <ul >
     <li>Faça um git clone ou baixe manualmente o projeto.</li>
-    <li>No seu VSCODE abra um terminal para pasta front-end e instala os modulos com o comando npm install</li>
-     <li>No seu VSCODE abra a pasta front-end em outro terminal e digite o comando: ng serve -o. e deixe rodando</li>
-     <li>Front-end pronto!!</li>
+    <li> Abra o projeto no Microsoft Visual Studio. </li>
+    <li> Procure o arquivo appsettings, dentro dele ache o item DataBase e coloque a sua string de conexão com o banco de dados.</li>
+     <li>Procure o arquivo chamado Program, dentro dele ache o item options.WithOrigins e  coloque a url do seu front-end.</li>
+     <li>No seu console de gerenciador de pacotes rode o comando: Add-Migration Initial-DB -Context MarlinDbContext.</li>
+     <li>Por último,  rode o comando:  Update-Database -Context MarlinDbContext.</li>
+     <li>Pronto, Api funcionando!</li>
   </ul>
